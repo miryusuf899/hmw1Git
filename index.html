@@ -7,18 +7,236 @@
     <link rel="stylesheet" href="./src/output.css">
 </head>
 <body>
-    <section>
-        <nav class="hidden lg:flex justify-between">
-            <p>Сеть клиник Томской области</p>
+    <section class="max-w-300 m-auto p-5">
+        <nav class="hidden lg:flex justify-between py-6 items-center">
+            <p class="text-[#686868]">Сеть клиник Томской области</p>
             <div class="flex items-center gap-2">
                 <img src="./view 1.png" alt="">
-                <p>Версия для слабовидящих</p>
+                <p class="text-[#686868]">Версия для слабовидящих</p>
             </div>
             <div class="flex items-center gap-5">
-                <p>+ 7 (978) 00-00-000</p>
-                <button>Записаться на прием</button>
+                <p class="text-xl font-semibold">+ 7 (978) 00-00-000</p>
+                <button class="py-3 px-10 bg-linear-to-b from-[#3BB96D] to-[#279A59] rounded-full text-[white]">Записаться на прием</button>
             </div>
         </nav>
+        <nav class="flex items-center justify-between py-6">
+            <img src="./image 1 (1).png" alt="">
+            <div class="hidden lg:flex gap-13 text-xl text-[#0D233B]">
+                <p>Врачи</p>
+                <p>Услуги</p>
+                <p>Диагностика</p>
+                <p>Анализы</p>
+                <p>Акции</p>
+                <p>О клинике</p>
+                <p>Отзывы</p>
+                <p>Контакты</p>
+            </div>
+            <img src="./burger.png" alt="" class="block lg:hidden">
+        </nav>
+        <p class="text-[#0D233B] py-2 lg:py-6">Главная > <span class="font-semibold">Анализы</span></p>
     </section>
+    <main class="max-w-300 m-auto p-5">
+        <section class="flex flex-col gap-10">
+            <h1 class="text-4xl font-bold lg:text-5xl">Анализы</h1>
+            <div class="flex flex-col gap-5 lg:flex-row">
+                <div class="flex flex-col gap-7 items-start bg-linear-to-b from-[#3BB96D] to-[#279A59] px-5 py-10 pr-15 text-white relative rounded-xl">
+                    <h1 class="text-3xl font-bold">Скидка -20% на МРТ</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra amet dolor sed mi tincidunt pharetra montes. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra amet dolor sed mi tincidunt pharetra montes.</p>
+                    <div>
+                        <p>Акция действует до </p>
+                        <p class="font-bold">22.03.2023</p>
+                    </div>
+                    <button class="py-2 px-10 bg-white rounded-full font-semibold text-[#3BB96D]">Подробнее ></button>
+                    <div>
+                        <img src="./image 4.png" alt="">
+                    </div>
+                </div>
+                <div class="flex flex-col gap-7 items-start bg-linear-to-b from-[#27C8DA] to-[#24BFD0] px-5 py-10 pr-15 text-white relative rounded-xl">
+                    <h1 class="text-3xl font-bold">Скидка -20% на МРТ</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra amet dolor sed mi tincidunt pharetra montes. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra amet dolor sed mi tincidunt pharetra montes.</p>
+                    <div>
+                        <p>Акция действует до </p>
+                        <p class="font-bold">22.03.2023</p>
+                    </div>
+                    <button class="py-2 px-10 bg-white rounded-full font-semibold text-[#3BB96D]">Подробнее ></button>
+                    <div>
+                        <img src="./image 4.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="flex flex-col gap-10 mt-20">
+            <h1 class="text-4xl font-bold">Как получить лечение?</h1>
+            <div class="flex flex-col gap-6 lg:flex-row justify-between">
+                <div style="box-shadow: 0px 4px 30px 0px #00000026;" class="px-7 py-10 rounded-xl flex flex-col gap-5 items-start lg:w-[32%]">
+                    <img src="./Frame 153.png" alt="">
+                    <p>Узнайте, входит ли интересующее вас лечение в программу для вашего региона</p>
+                </div>
+                <div style="box-shadow: 0px 4px 30px 0px #00000026;"  class="px-7 py-10 rounded-xl flex flex-col gap-5 items-start lg:w-[32%]">
+                    <img src="./Group 160.png" alt="">
+                    <p>Подготовьте необходимые документы и отправьте заявку на лечение</p>
+                </div>
+                <div style="box-shadow: 0px 4px 30px 0px #00000026;"  class="px-7 py-10 rounded-xl flex flex-col gap-5 items-start lg:w-[32%]">
+                    <img src="./Frame 153 (1).png" alt="">
+                    <p>В течение 3-х рабочих дней специалист отдела ОМС свяжется с вами по указанному вами номеру телефона</p>
+                </div>
+            </div>
+        </section>
+        <section class="flex flex-col gap-10 mt-20">
+            <h1 class="text-4xl font-bold">Популярные анализы</h1>
+            <div class="flex flex-col gap-6 lg:flex-row justify-between">
+                <div style="border: 1px solid #C4CDD4" class="px-7 py-10 rounded-xl flex flex-col gap-2 items-start lg:w-[25%]">
+                    <img src="./Group 1894.png" alt="">
+                    <h1 class="text-xl text-[#3BB96D] font-semibold">Онкология</h1>
+                    <img src="./Line 2.png" alt="">
+                    <p>Гистология</p>
+                    <p>Онкомаркёры</p>
+                    <p>Цитология</p>
+                </div>
+                <div style="border: 1px solid #C4CDD4" class="px-7 py-10 rounded-xl flex flex-col gap-2 items-start lg:w-[25%]">
+                    <img src="./Group 1894 (1).png" alt="">
+                    <h1 class="text-xl text-[#3BB96D] font-semibold">Исследования крови</h1>
+                    <img src="./Line 2.png" alt="">
+                    <p>Клинические исследования</p>
+                    <p>Биохимия</p>
+                    <p>Иммунология</p>
+                </div>
+                <div style="border: 1px solid #C4CDD4" class="px-7 py-10 rounded-xl flex flex-col gap-2 items-start lg:w-[25%]">
+                    <img src="./Group 1894 (2).png" alt="">
+                    <h1 class="text-xl text-[#3BB96D] font-semibold">Исследования мочи</h1>
+                    <img src="./Line 2.png" alt="">
+                    <p>Биохимический анализ мочи</p>
+                    <p>Общий анализ мочи</p>
+                    <p>Гормоны</p>
+                </div>
+                <div style="border: 1px solid #C4CDD4" class="px-7 py-10 rounded-xl flex flex-col gap-2 items-start lg:w-[25%]">
+                    <img src="./Group 1894 (3).png" alt="">
+                    <h1 class="text-xl text-[#3BB96D] font-semibold">Аллергии</h1>
+                    <img src="./Line 2.png" alt="">
+                    <p>Аллергокомпоненты</p>
+                    <p>Индивидуальные аллергены</p>
+                    <p>Аллергия на лекарства</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <section class="bg-[#272727] text-white">
+        <div class="max-w-300 m-auto px-5 py-14 flex flex-col gap-5 lg:py-0">
+            <div class="flex flex-col lg:flex-row justify-between items-center">
+                <div>
+                    <h1 class="text-3xl font-semibold">Виды лабораторных анализов и исследований</h1>
+                    <div class="flex flex-col gap-2 lg:flex-row lg:items-center">
+                        <ul class="flex flex-col gap-2 mt-5">
+                            <li class="flex gap-2"><span class="text-[#3BB96D]">•</span>Общие исследования крови</li>
+                            <li class="flex gap-2"><span class="text-[#3BB96D]">•</span>Биохимические исследования крови</li>
+                            <li class="flex gap-2"><span class="text-[#3BB96D]">•</span>Онкомаркёры</li>
+                            <li class="flex gap-2"><span class="text-[#3BB96D]">•</span>Общеклинические исследования кала</li>
+                        <li class="flex gap-2"><span class="text-[#3BB96D]">•</span>Панели аллергенов</li>
+                        <li class="flex gap-2"><span class="text-[#3BB96D]">•</span>Гистологические исследования</li>
+                        <li class="flex gap-2"><span class="text-[#3BB96D]">•</span>Гормональные исследования крови</li>
+                        <li class="flex gap-2"><span class="text-[#3BB96D]">•</span>Исследования мочи</li>
+                        <li class="flex gap-2"><span class="text-[#3BB96D]">•</span>Иммунологические исследования крови</li>
+                    </ul>
+                    <ul class="flex flex-col gap-2">
+                        <li class="flex gap-2"><span class="text-[#3BB96D]">•</span>Гематологические исследования</li>
+                        <li class="flex gap-2"><span class="text-[#3BB96D]">•</span>Аллергологические исследования</li>
+                        <li class="flex gap-2"><span class="text-[#3BB96D]">•</span>Исследования кала</li>
+                        <li class="flex gap-2"><span class="text-[#3BB96D]">•</span>Аутоиммунные заболевания</li>
+                        <li class="flex gap-2"><span class="text-[#3BB96D]">•</span>Исследование спермы</li>
+                        <li class="flex gap-2"><span class="text-[#3BB96D]">•</span>Генетический анализ</li>
+                        <li class="flex gap-2"><span class="text-[#3BB96D]">•</span>Исследования крови на инфекции</li>
+                        <li class="flex gap-2"><span class="text-[#3BB96D]">•</span>Цитологические исследования</li>
+                        <li class="flex gap-2"><span class="text-[#3BB96D]">•</span>Исследования инфекционных заболеваний</li>
+                    </ul>
+                    </div>
+                </div>
+                <img src="./Group 1895.png" alt="" class="hidden lg:block">
+            </div>
+        </div>
+    </section>
+    <main class="max-w-300 m-auto p-5">
+        <section class="flex flex-col gap-10 mt-20">
+            <h1 class="text-4xl font-bold text-center lg:text-5xl">Наши лицензии</h1>
+            <div class="flex flex-col items-center gap-5 lg:flex-row justify-between">
+                <img src="./image 7 (3).png" alt="">
+                <img src="./image 7 (3).png" alt="">
+                <img src="./image 7 (3).png" alt="">
+                <img src="./image 7 (3).png" alt="">
+            </div>
+        </section>
+        <section class="px-8 py-10 bg-[#272727] rounded-[60px] text-white flex flex-col gap-5 mt-20 lg:flex-row lg:items-center lg:justify-between">
+            <div class="flex flex-col gap-7 items-start">
+                <h1 class="text-4xl font-bold lg:text-5xl">Хотите, мы Вам перезвоним?</h1>
+                <p>Оставьте заявку и мы подробно ответим на все Ваши вопросы!</p>
+                <div class="flex flex-col gap-4 lg:flex-row-reverse">
+                    <div class="flex flex-col gap-3">
+                        <label for="inp">Номер телефона</label>
+                        <input type="text" placeholder="+7 (___) ___-__-__" class="bg-white text-gray-800 py-4 pl-3 rounded-full lg:px-10">
+                    </div>
+                    <div class="flex flex-col gap-3">
+                        <label for="inp">Ваше ФИО</label>
+                        <input type="email" placeholder="Иванов Иван Иванович" class="bg-white text-gray-800 py-4 pl-3 rounded-full lg:px-10">
+                    </div>
+                </div>
+                <button class="py-4 px-15 bg-linear-to-b from-[#3BB96D] to-[#279A59] rounded-full text-[white]">Заказать звонок</button>
+                <p>Нажимая на кнопку Заказать звонок вы соглашаетесь с <span class="text-green-500">политикой конфиденциальности</span></p>
+            </div>
+            <img src="./doctor-with-stethoscope-2021-09-03-02-58-01-utc 1.png" alt="" class="hidden lg:block">
+        </section>
+    </main>
+    <footer class="bg-[#279A59] text-white">
+        <div class="max-w-300 m-auto p-5 py-8 flex flex-wrap gap-5 lg:justify-between lg:items-center">
+            <div class="flex flex-col gap-1 items-start">
+                <img src="./Шапка.png" alt="">
+                <div class="flex flex-row justify-between lg:flex-col">
+                    <div class="flex flex-col gap-1">
+                        <p>Адрес</p>
+                        <p>Москва, ул</p>
+                        <p>Пушкина, д.43</p>
+                    </div>
+                    <div class="flex flex-col gap-1">
+                        <p>Телефон</p>
+                        <p>+7 (9__) </p>
+                    </div>
+                    <div class="flex flex-col gap-1">
+                        <p>Почта</p>
+                        <p>Poshta@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-col gap-2">
+                <p class="font-bold">О клинике</p>
+                <p>Название пункта ме</p>
+                <p>Название пункта ме</p>
+                <p>Название пункта ме</p>
+                <p>Название пункта ме</p>
+                <p>Название пункта ме</p>
+            </div>
+            <div class="flex flex-col gap-2">
+                <p class="font-bold">Врач</p>
+                <p>Название пункта меню</p>
+                <p>Название пункта меню</p>
+                <p>Название пункта меню</p>
+                <p>Название пункта меню</p>
+                <p>Название пункта меню</p>
+            </div>
+            <div class="flex flex-col gap-2">
+                <p class="font-bold">Пациентам</p>
+                <p>Название пункта ме</p>
+                <p>Название пункта ме</p>
+                <p>Название пункта ме</p>
+                <p>Название пункта ме</p>
+                <p>Название пункта ме</p>
+            </div>
+            <div class="flex flex-col gap-2">
+                <p class="font-bold">Услуги</p>
+                <p>Название пункта меню</p>
+                <p>Название пункта меню</p>
+                <p>Название пункта меню</p>
+                <p>Название пункта меню</p>
+                <p>Название пункта меню</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
