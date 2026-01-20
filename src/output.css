@@ -378,6 +378,26 @@
       display: none;
     }
   }
+  .lg\:w-\[\%\] {
+    @media (width >= 64rem) {
+      width: %;
+    }
+  }
+  .lg\:w-\[2\%\] {
+    @media (width >= 64rem) {
+      width: 2%;
+    }
+  }
+  .lg\:w-\[25\%\%\] {
+    @media (width >= 64rem) {
+      width: 25%%;
+    }
+  }
+  .lg\:w-\[25\%\] {
+    @media (width >= 64rem) {
+      width: 25%;
+    }
+  }
   .lg\:w-\[30\%\] {
     @media (width >= 64rem) {
       width: 30%;
